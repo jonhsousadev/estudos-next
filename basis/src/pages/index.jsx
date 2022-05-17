@@ -1,10 +1,11 @@
-import Exercicio1 from "../components/Exercicio1/exercicio1"
+import Cabecalho from "../components/cabecalho/Cabecalho"
+import Link from 'next/link'
 export default function Inicio() {
+  let title = "Esse é o nosso cabeçalho" 
   return (
-      <div>
-        <h1>Título</h1>
-        <p>Substítulo</p>
-        <Exercicio1></Exercicio1>
-      </div>
+      <>
+        <Cabecalho title={title}/>
+        <Link href="/navecacao1">Navegação 1</Link>
+      </>
   )
 }
