@@ -5,7 +5,7 @@ export default function Layout(props) {
     <div className={styles.layout}>
       <div className={styles.cabecalho}>
         <h2>{props.titulo ?? 'Valor padrão'}</h2>
-        <Navegador path="/" label="Home"/>
+        <Navegador path="/" label="Home" color="crimson"/>
       </div>
       <div className={styles.conteudo}>
         {props.children}

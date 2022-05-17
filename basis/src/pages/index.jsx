@@ -5,7 +5,7 @@ export default function Inicio() {
   return (
       <>
         <Cabecalho title={title}/>
-        <Navegador path="/navecacao1" label="Navegacao 1" />
+        <Navegador path="/navecacao1" label="Navegacao 1" color="darkcyan"/>
       </>
   )
 }
