@@ -1,7 +1,12 @@
+import Link from 'next/link'
+import Layout from '../components/layout/Layout'
+
 export default function Navecacao1() {
   return (
     <>
-      <h1>Nova página de navegação</h1>
+      <Layout>
+        <h1>Nova página de navegação</h1>
+      </Layout>
     </>
   )
 }
