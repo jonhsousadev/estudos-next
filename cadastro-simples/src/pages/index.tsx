@@ -1,3 +1,4 @@
+import Botao from "../components/Layout/Botao";
 import Layout from "../components/Layout/Layout";
 import Tabela from "../components/Layout/Tabela";
 import Cliente from "../core/Cliente";
@@ -20,6 +21,7 @@ export default function Home() {
   return (
     <div className="h-screen flex justify-center items-center bg-gradient-to-r from-purple-500 to to-blue-600">
       <Layout titulo="Cadastro Simples">
+        <Botao cor="green" className="mb-4">Novo Cliente</Botao>
         <Tabela clientes={clientes} clienteSelecionado = {clienteSelecionado} clienteExcluido={clienteExcluido}></Tabela>
       </Layout>
     </div>
