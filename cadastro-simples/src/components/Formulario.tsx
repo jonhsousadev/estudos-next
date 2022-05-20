@@ -1,4 +1,4 @@
-import Cliente from "../../core/Cliente";
+import Cliente from "../core/Cliente";
 import Entrada from "./Entrada";
 import React, {useState} from 'react'
 import Botao from "./Botao";

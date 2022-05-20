@@ -1,4 +1,4 @@
-import Cliente from "../../core/Cliente"
+import Cliente from "../core/Cliente"
 import { editButton, editIcon, trashButton, trashIcon } from "./Icones"
 
 interface TabelaProps {
